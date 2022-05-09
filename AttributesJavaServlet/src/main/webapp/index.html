@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	#B{
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	#A{
+	    text-align:center;
+	    width:500px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    padding:6px;
+	    margin:5px;
+	    border:2px solid black;	    
+}
+</style>
+</head>
+<body>
+	<div id="B">
+		<div id="A">
+			<form action="servlet1" method="post" >
+			<h1>Form</h1>
+				<table >
+					<tr><td>
+						<input type="number" name="n1" placeholder ="number1">
+					</td></tr>
+					<tr><td>
+						<input type="number" name="n2" placeholder ="number2">
+					</td></tr>
+					<tr><td>
+						<input type="submit" name="submit">
+					</td></tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
